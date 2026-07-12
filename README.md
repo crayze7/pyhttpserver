@@ -1,0 +1,13 @@
+## PyHTTPServer
+Implementation of HTTP server in pure (almost) python.
+Usefull when you need custom backed for your application or web page.
+All what you need to do is attaching processing handlers for requests you want to process.
+
+### Features
+- Managing connections.
+- Support HTTP1, HTTP/2 and HTTP/3 requests.
+- Support SSL/TLS (need cert file).
+- Support implmeneting WebSocket messaging.
+
+### Usage examples
+- <a href="examples/basic_http_server.py">Basic HTTP Server</a>
