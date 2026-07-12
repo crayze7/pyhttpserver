@@ -11,3 +11,7 @@ All what you need to do is attach processing handlers (see example).
 
 ### Usage examples
 - <a href="tree/main/examples/basic_http_server.py">Basic HTTP Server</a>
+
+### HTTP/3 Notes
+To support HTTP/3 OpenSSL (min ver 3.5) binaries are needed.
+This version not implement QUIC protocol in pure python yet.
